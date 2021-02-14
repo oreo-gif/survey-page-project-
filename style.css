@@ -1,0 +1,61 @@
+/* heading of the page */
+#title{
+  color: rgb(71, 6, 6);
+  text-align:center;
+  font-size: 200px;
+  font-family: Tangerine;
+ }
+
+/* adding background*/
+#back{
+  background-image:url("https://i.pinimg.com/originals/6b/c0/0a/6bc00a2607f58287c4c348e0ce4dcdcd.jpg");
+  
+/* styling the description of the form*/  
+}
+#description{
+  color: blue;
+  text-align: center;
+  font-family: Jura;
+  position: relative;
+  bottom: 110px;
+  
+ /* styling the horizontal lines*/
+}
+#hr_one{
+  width: 3px;
+  position:relative;
+  bottom: 110px;
+  align:center;
+  width:900px;
+}
+#hr_two{
+  width:3opx;
+  position:relative;
+  bottom: 110px;
+  align:center;
+  width:500px;
+}
+
+/* styling the main form content*/
+.head{
+  font-family:Jura;
+  position:relative;
+  left:400px;
+  font-size: 20px;
+  width: 700px;
+}
+
+/* styling the submit button*/
+button{
+  width:110px;
+  height: 40px;
+  font-size: 25px;
+  font-family: Neuton;
+  background-color: #52B2BF;
+  border-radius:10%;
+}
+
+/*adding hover effect */
+button:hover{
+  background-color: blue;
+}

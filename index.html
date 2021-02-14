@@ -1,0 +1,110 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+<!-- Links for font styles copied from google fonts -->
+
+<!-- Tangerine-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+
+<!-- Jura-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Tangerine&display=swap" rel="stylesheet">
+
+<!-- Neuton-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Neuton:wght@700&family=Tangerine&display=swap" rel="stylesheet">
+
+
+<!-- Body of main form starts-->
+<body id="back">
+  <div>
+   <h1 id="title"> Survey Form </h1>
+   <hr id="hr_one">
+    
+<!-- description of the survey -->
+   <p id="description"><b>Here's a short survey form so that services give to you could be further improved.<br> We would be greatful if you fill the form and help us know you better</b></p>
+    <hr id="hr_two">
+  <form id="survey-form" >
+    <div  class="head">
+      
+<!-- Name field-->
+      <label id="name-label">Enter your name </label>       
+          <input id="name" type="text" placeholder="Name" required>
+      <br>
+      <br>
+      
+<!-- Email field-->
+      <label id="email-label"> Enter your Email Address</label>     
+          <input id="email" type="email" placeholder="Email-ID" required>
+      <br>
+      <br>
+      
+<!--Number range field -->
+      <label id="number-label"> Rate the vegetable quality in the market between 0-10</label>      
+      <input id="number" type="number" placeholder="Rating" min="0" max="10">
+      <br>
+      <br>
+      
+<!-- Dropdown list -->      
+      <label for="mode"> How do you prefer to buy Vegetables</label>
+        <select name="mode" id="dropdown">
+          <option value="--">--</option>
+          <option value="local sellers">Local Sellers</option>
+          <option value="organic stores">Organic Stores</option>
+          <option value="shopping complex"> Shopping Complex</option>
+          <option value="local online seller"> Local Online Seller</option>
+          <option value="well known online platforms">Well known Online Platforms</option>
+         </select>
+      <br>
+      <br>
+      
+<!--taking radio inputs  -->      
+      <fieldset>
+        <legend>What accoring to you is the most important factor while selecting vegetables</legend>
+        <label for="Price">
+            <input type="radio" name="factor" value="price"> Price
+        </label><br>
+        <label for="quality">
+            <input type="radio" name="factor" value="quality"> Cleanliness
+        </label><br>
+        <label for="freshness">
+            <input type="radio" name="factor" value="freshness"> Quality
+        </label><br>
+      </fieldset>
+      <br>
+      <br>
+      
+ <!-- taking checkbox inputs-->     
+      <fieldset>
+        <legend> What qualities you see while buying vegetables</legend>
+        <label for="Shop Cleanliness">
+          <input type="checkbox" value="Shop Cleanliness" name="qualities">Shop Cleanliness</label><br>
+        <label for="Discount">
+          <input type="checkbox" value="discount" name="qualities">Discount</label><br>
+        <label for="Freshness">
+          <input type="checkbox" value="freshness" name="qualities">Freshness</label><br>
+         <label for="Organic">
+          <input type="checkbox" value="organic" name="qualities">Organic</label><br>
+        <label for="Easy returns">
+          <input type="checkbox" value="easy returns" name="qualities">Easy Returns</label><br>
+      </fieldset>
+      <br>
+      <br>
+      
+<!-- Text area input-->      
+      <label for="other"> Any Additional Factors You Would Like to Add:-</label> <br>
+      <textarea id="more" name="more" cols="85" rows="6">
+      </textarea>
+      <br>
+      <br>
+      
+<!-- Making the submit button-->      
+      <button type="submit" id="submit"> Submit </button>
+      </form>
+    </div>
+</body>
+        
+        
+            
+  
